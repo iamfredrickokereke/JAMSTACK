@@ -25,15 +25,18 @@
         </a>
       </div>
     </div>
+
+    <CustomForm />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-
+import CustomForm from '~/components/CustomForm.vue'
 export default {
   components: {
-    Logo
+    Logo,
+    CustomForm
   }
 }
 </script>
